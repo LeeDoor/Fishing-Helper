@@ -8,7 +8,7 @@ namespace Fishing_Helper
 {
     public class FishDataBase
     {
-        List<FishType> fishes;
+        public List<FishType> Fishes { get; set; }
         public FishDataBase()
         {
             Initialize();
@@ -16,11 +16,16 @@ namespace Fishing_Helper
 
         public void Initialize()
         {
+            Fishes = new List<FishType>();
             var builder = FishType.GetBuilder();
-            fishes.Add(
-                builder
+            Fishes.Add(builder
                 .BuildName("Splashtail")
-                .BuildFish("Ruby Splashtail", "images\\fishes\\Ruby_Splashtail.png", new Location())
+                .BuildBait(Bait.None)
+                .BuildFish(
+                    "Ruby Splashtail", 
+                    "images\\fishes\\Ruby_Splashtail.png", 
+                    new Location(), 
+                    new Price(75, 190, 115, 285))
                 //.BuildFish("Ruby Splashtail", "images\\fishes\\Ruby_Splashtail.png", new Location())
                 .Reset()
             );

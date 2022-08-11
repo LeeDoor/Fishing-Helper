@@ -13,7 +13,7 @@
             <RowDefinition Height="115"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Image Source="/background.png" Grid.RowSpan="3"/>
+        <Image Source="images/background.png" Grid.RowSpan="3"/>
         <Image Source="images/map full.jpg" Grid.Row="2" Margin="5"/>
         <Grid x:Name="fishGrid" Grid.Row="0" Margin="0,0,0,10">
             <Grid.RowDefinitions>
@@ -33,10 +33,10 @@
                    Grid.Row="0"
                    Margin="3 "
                    />
-            <Image Source="/Almond_Ancientscale.png" 
+            <Image 
                    Grid.Column="1" 
                    Grid.Row="0"
-                   Margin="3"/>
+                   Margin="3" Source="/images/fishes/Smoke_Ancientscale.png"/>
         </Grid>
         <Image x:Name="baitIcon" Grid.Row="1" Margin="5,10,0,5" HorizontalAlignment="Left" Source="images/baits/Grubs.png" Width="93"/>
     </Grid>

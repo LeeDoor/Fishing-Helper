@@ -10,7 +10,7 @@ namespace Fishing_Helper
     {
         public string Name { get; set; }
         public List<Fish> Variations { get; set; }
-
+        public Bait Bait { get; set; }
         public static FishTypeBuilder GetBuilder() => new FishTypeBuilder();
 
     }

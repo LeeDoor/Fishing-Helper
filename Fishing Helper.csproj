@@ -12,14 +12,222 @@
     <None Remove="Almond_Ancientscale.png" />
     <None Remove="background.png" />
     <None Remove="IconGreenScreen.png" />
+    <None Remove="images\background.png" />
+    <None Remove="images\fishes\Almond_Ancientscale.png" />
+    <None Remove="images\fishes\Amber_Plentifin.png" />
+    <None Remove="images\fishes\Amethyst_Islehopper.png" />
+    <None Remove="images\fishes\Ancient_Stormfish.png" />
+    <None Remove="images\fishes\Ashen_Devilfish.png" />
+    <None Remove="images\fishes\Bittersweet_Battlegill.png" />
+    <None Remove="images\fishes\Blackcloud_Wrecker.png" />
+    <None Remove="images\fishes\Bonedust_Plentifin.png" />
+    <None Remove="images\fishes\Bone_Ancientscale.png" />
+    <None Remove="images\fishes\Bright_Pondie.png" />
+    <None Remove="images\fishes\Bronze_Pondie.png" />
+    <None Remove="images\fishes\Charcoal_Pondie.png" />
+    <None Remove="images\fishes\Cloudy_Plentifin.png" />
+    <None Remove="images\fishes\Coral_Wildsplash.png" />
+    <None Remove="images\fishes\Firelight_Devilfish.png" />
+    <None Remove="images\fishes\Forsaken_Devilfish.png" />
+    <None Remove="images\fishes\Honey_Islehopper.png" />
+    <None Remove="images\fishes\Indigo_Splashtail.png" />
+    <None Remove="images\fishes\Jade_Battlegill.png" />
+    <None Remove="images\fishes\Lava_Devilfish.png" />
+    <None Remove="images\fishes\Moonsky_Pondie.png" />
+    <None Remove="images\fishes\Moon_Wrecker.png" />
+    <None Remove="images\fishes\Moss_Islehopper.png" />
+    <None Remove="images\fishes\Muddy_Wildsplash.png" />
+    <None Remove="images\fishes\Ocean_Wildsplash.png" />
+    <None Remove="images\fishes\Olive_Plentifin.png" />
+    <None Remove="images\fishes\Orchid_Pondie.png" />
+    <None Remove="images\fishes\Raven_Islehopper.png" />
+    <None Remove="images\fishes\Rose_Wrecker.png" />
+    <None Remove="images\fishes\Ruby_Splashtail.png" />
+    <None Remove="images\fishes\Rum_Battlegill.png" />
+    <None Remove="images\fishes\Russet_Wildsplash.png" />
+    <None Remove="images\fishes\Sandy_Wildsplash.png" />
+    <None Remove="images\fishes\Sand_Battlegill.png" />
+    <None Remove="images\fishes\Sapphire_Ancientscale.png" />
+    <None Remove="images\fishes\Seafoam_Splashtail.png" />
+    <None Remove="images\fishes\Seashell_Devilfish.png" />
+    <None Remove="images\fishes\Shadow_Stormfish.png" />
+    <None Remove="images\fishes\Shores_Stormfish.png" />
+    <None Remove="images\fishes\Sky_Battlegill.png" />
+    <None Remove="images\fishes\Smoke_Ancientscale.png" />
+    <None Remove="images\fishes\Snow_Wrecker.png" />
+    <None Remove="images\fishes\Starshine_Ancientscale.png" />
+    <None Remove="images\fishes\Stone_Islehopper.png" />
+    <None Remove="images\fishes\Sunny_Splashtail.png" />
+    <None Remove="images\fishes\Sun_Wrecker.png" />
+    <None Remove="images\fishes\Twilight_Stormfish.png" />
+    <None Remove="images\fishes\Umber_Splashtail.png" />
+    <None Remove="images\fishes\Watery_Plentifin.png" />
+    <None Remove="images\fishes\Wild_Stormfish.png" />
+    <None Remove="images\IconGreenScreen.png" />
+    <None Remove="images\map full.jpg" />
     <None Remove="map full.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Almond_Ancientscale.png" />
-    <Resource Include="background.png" />
-    <Resource Include="IconGreenScreen.png" />
-    <Resource Include="map full.jpg" />
+    <Resource Include="images\background.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Almond_Ancientscale.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Amber_Plentifin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Amethyst_Islehopper.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Ancient_Stormfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Ashen_Devilfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Bittersweet_Battlegill.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Blackcloud_Wrecker.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Bonedust_Plentifin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Bone_Ancientscale.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Bright_Pondie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Bronze_Pondie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Charcoal_Pondie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Cloudy_Plentifin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Coral_Wildsplash.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Firelight_Devilfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Forsaken_Devilfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Honey_Islehopper.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Indigo_Splashtail.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Jade_Battlegill.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Lava_Devilfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Moonsky_Pondie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Moon_Wrecker.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Moss_Islehopper.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Muddy_Wildsplash.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Ocean_Wildsplash.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Olive_Plentifin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Orchid_Pondie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Raven_Islehopper.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Rose_Wrecker.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Ruby_Splashtail.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Rum_Battlegill.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Russet_Wildsplash.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Sandy_Wildsplash.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Sand_Battlegill.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Sapphire_Ancientscale.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Seafoam_Splashtail.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Seashell_Devilfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Shadow_Stormfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Shores_Stormfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Sky_Battlegill.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Smoke_Ancientscale.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Snow_Wrecker.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Starshine_Ancientscale.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Stone_Islehopper.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Sunny_Splashtail.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Sun_Wrecker.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Twilight_Stormfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Umber_Splashtail.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Watery_Plentifin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fishes\Wild_Stormfish.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\IconGreenScreen.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\map full.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
