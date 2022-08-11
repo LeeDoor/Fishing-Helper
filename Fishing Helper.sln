@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fishing Helper", "Fishing Helper.csproj", "{59994484-65B7-456C-B76B-31A376DA98E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE8FDAC2-6FD4-4E1A-978E-E81988FDBC74}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59994484-65B7-456C-B76B-31A376DA98E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59994484-65B7-456C-B76B-31A376DA98E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59994484-65B7-456C-B76B-31A376DA98E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59994484-65B7-456C-B76B-31A376DA98E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03A0A3C7-EDEA-4500-B278-CB33990741F8}
+	EndGlobalSection
+EndGlobal

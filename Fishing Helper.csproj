@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Fishing_Helper</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Almond_Ancientscale.png" />
+    <None Remove="background.png" />
+    <None Remove="IconGreenScreen.png" />
+    <None Remove="map full.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Almond_Ancientscale.png" />
+    <Resource Include="background.png" />
+    <Resource Include="IconGreenScreen.png" />
+    <Resource Include="map full.jpg" />
+  </ItemGroup>
+
+</Project>
