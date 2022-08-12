@@ -28,9 +28,9 @@ namespace Fishing_Helper
             return this;
         }
 
-        public FishTypeBuilder BuildFish(string name, string path, Location location, Price price)
+        public FishTypeBuilder BuildFish(string name, string path, string type, Location location, Price price)
         {
-            _product.Variations.Add(new Fish(name, path, location, price));
+            _product.Variations.Add(new Fish(name, path, type, location, price));
             return this;
         }
         public FishTypeBuilder BuildFish(Fish fish)
