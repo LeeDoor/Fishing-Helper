@@ -21,7 +21,7 @@ namespace Fishing_Helper
 
             #region fish filler
             Fishes.Add(builder
-            .BuildName("")
+            .BuildName("splashtail")
             .BuildBait(Bait.None)
             .BuildFish(
             "Ruby Splashtail",
@@ -61,7 +61,7 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
+                .BuildName("pondie")
                 .BuildBait(Bait.None)
             .BuildFish(
             "Charcoal Pondie",
@@ -101,7 +101,7 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
+                .BuildName("islehopper")
                 .BuildBait(Bait.None)
 
             .BuildFish(
@@ -142,8 +142,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("ancientscale")
+                .BuildBait(Bait.Leeches)
 
             .BuildFish(
             "Almond Ancientscale",
@@ -183,8 +183,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("plentifin")
+                .BuildBait(Bait.Earthworms)
 
             .BuildFish(
             "Olive Plentifin",
@@ -224,8 +224,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("wildsplash")
+                .BuildBait(Bait.Earthworms)
 
             .BuildFish(
             "Russet Wildsplash",
@@ -265,8 +265,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("devilfish")
+                .BuildBait(Bait.Grubs)
 
             .BuildFish(
             "Ashen Devilfish",
@@ -306,8 +306,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("battlegill")
+                .BuildBait(Bait.Grubs)
 
             .BuildFish(
             "Jade Battlegill",
@@ -347,8 +347,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("wrecker")
+                .BuildBait(Bait.Earthworms)
 
             .BuildFish(
             "Rose Wrecker",
@@ -388,8 +388,8 @@ namespace Fishing_Helper
             .Reset());
 
             Fishes.Add(builder
-                .BuildName("")
-                .BuildBait(Bait.None)
+                .BuildName("stormfish")
+                .BuildBait(Bait.Leeches)
 
             .BuildFish(
             "Ancient Stormfish",
