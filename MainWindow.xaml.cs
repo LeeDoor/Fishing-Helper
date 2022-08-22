@@ -23,6 +23,8 @@ namespace Fishing_Helper
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = new FishViewModel();
         }
     }
 }

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Fishing_Helper
 {
-	public class FishDataBase
+	public static class FishDataBase
 	{
-		public List<FishType> Fishes { get; set; }
-		public FishDataBase()
+		public static List<FishType> Fishes { get; set; }
+		static FishDataBase()
 		{
 			Initialize();
 		}
 
-        public void Initialize()
+        public static void Initialize()
         {
             Fishes = new List<FishType>();
             var builder = FishType.GetBuilder();

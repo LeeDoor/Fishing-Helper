@@ -69,6 +69,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="images\background.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
