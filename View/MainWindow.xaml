@@ -15,7 +15,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Image Grid.RowSpan="3"/>
-        <Image Source="images/map full.jpg" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Image Source="../images/map full.jpg" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Grid x:Name="fishGrid" Grid.Row="0" Margin="5">
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -41,6 +41,6 @@
             <Image Source="{Binding Fishes[9].Path}" Grid.Column="4" Grid.Row="1" Margin = "4"/>
             
         </Grid>
-        <Image x:Name="baitIcon" Grid.Row="1" HorizontalAlignment="Left" Margin="10" Source="images/baits/Grubs.png"/>
+        <Image x:Name="baitIcon" Grid.Row="1" HorizontalAlignment="Left" Margin="10" Source="../images/baits/Grubs.png"/>
     </Grid>
 </Window>
