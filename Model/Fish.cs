@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fishing_Helper
+namespace Fishing_Helper.Model
 {
     public class Fish
     {
+        public int Id { get; set; }
         public string Name { get; }
         public string Path { get; }
         public string Type { get; }
+
         public Location Location { get; }
+        public int LocationId { get; }
+
         public Price Price { get; }
-        public Fish(string name, string path, string type, Location location, Price price)
-        {
-            Name = name;
-            Path = path;
-            Type = type;
-            Location = Location;
-            Price = price;
-        }
+        public int PriceId { get; }
+
+        public FishType FishType { get; }
+        public int FishTypeId { get; }
     }
 }
